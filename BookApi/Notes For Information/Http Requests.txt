@@ -1,0 +1,31 @@
+HTTP Requests
+
+HTTP GET:
+Purpose: The GET request is used to retrieve data from a server at the specified resource. When you use GET, you are requesting the server to send back the information stored at that location.
+Example: When you visit a webpage, your browser sends a GET request to fetch the HTML, images, and other files that make up the page.
+Idempotence: GET requests are idempotent, meaning that making multiple identical GET requests will have the same effect as making a single request.
+
+HTTP DELETE:
+Purpose: The DELETE request is used to remove a specified resource from the server. When you send a DELETE request, the server will delete the resource at the specified URI.
+Example: If you have an account on a website and decide to delete it, the request sent to the server would be a DELETE request.
+Idempotence: DELETE requests are also idempotent, meaning that multiple DELETE requests for the same resource will result in the same outcome as the first request.
+
+HTTP PUT:
+Purpose: The PUT request is used to update or create a resource at the specified URI. If the resource already exists, PUT will update it. If it doesn’t exist, PUT can create it.
+Example: If you are updating your profile information on a website, a PUT request would be used to send the updated data to the server.
+Idempotence: PUT requests are idempotent as well, meaning sending the same request multiple times will have the same effect as sending it once.
+
+HTTP POST:
+Purpose: The POST request is used to send data to the server to create a new resource. Unlike PUT, POST does not guarantee idempotence; sending the same POST request multiple times may result in the creation of multiple resources.
+Example: When you submit a form on a website, such as signing up for a newsletter, a POST request is used to send your data to the server.
+
+CRUD Operations
+CRUD stands for Create, Read, Update, and Delete. 
+These are the four basic operations that can be performed on any data storage system, 
+such as a database. Here’s what each operation does:
+
+Create: Adds a new record to the database. This is typically done using an HTTP POST request.
+Read: Retrieves one or more records from the database. This is done using an HTTP GET request.
+Update: Modifies an existing record in the database. This operation is performed using an HTTP PUT or PATCH request.
+Delete: Removes a record from the database. This is done using an HTTP DELETE request.
+CRUD operations are fundamental in web development, as they represent the basic functionalities required for managing data.

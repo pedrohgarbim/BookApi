@@ -1,0 +1,10 @@
+MVC always means model view conroller, and is a software design pattern or an 
+architectural design pattern that we use to specify fow we send data from A to 
+B, how the user navigates in our application that we use routes wich are defined 
+from controllers, we create endpoints in controllers.
+
+Inside of namespace MVC, we have a class called Controller base
+
+
+ [ApiController] -> helps us with some core functionality
+ ex: checking if we have errors inside of our server or in our controller

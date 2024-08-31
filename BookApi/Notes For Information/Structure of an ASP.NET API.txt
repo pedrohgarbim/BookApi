@@ -1,0 +1,13 @@
+API 
+Application Programming Interface 
+
+Web Api
+Application programming interface available via web (http requests)
+
+ASP.NET API
+Controllers + Routes/Endpoints + Models
+
+Web Api -> Book Controller -> Get All Books Route / Endpoint -> Book Classs(Model/Entity)
+
+In a ASP .NET API, is build out of controllers that contain endpoints/routes
+for especific actions(e.g getting book data) -> MVC, model, view, controller
